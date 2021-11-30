@@ -1,0 +1,134 @@
+.myDetailCard {
+  position: relative;
+  overflow: hidden;
+  margin-top: -10px;
+  height: 700px;
+  background: top center/cover no-repeat #1b2a5a;
+}
+
+.inner_carasoul {
+  font-family: 'IBM Plex Sans', sans-serif;
+  line-height: 29px;
+  font-size: 18px;
+  text-align: left;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  }
+
+.mainDes {
+  background-color: white;
+}
+
+.cara_container {
+  padding: 32px 0 16px 88px;
+  max-width: 72.6%;
+}
+
+.myDetailCard::after {
+  position: absolute;
+  content: '';
+  height: 50%;
+  width: 100%;
+  bottom: 0;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(11, 19, 46, 0),
+    rgb(31, 39, 68)
+  );
+  z-index: 1;
+}
+
+.cara_container h1 {
+  font-family: Muli, sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+  margin: 0 0 24px;
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 900;
+  color: white;
+}
+
+.author {
+  opacity: 1;
+  font-size: 18px;
+  line-height: 23px;
+  margin: 0;
+  color: #bec2cb;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-weight: 400;
+}
+.author a {
+  margin-right: 4px;
+  background-color: transparent;
+  color: #fff !important;
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.count_list {
+  list-style: none;
+  margin: 0;
+  flex-shrink: 0;
+}
+.count_list li {
+  display: inline-block;
+}
+
+.comment_white_icon {
+  margin-top: 10px;
+  color: #bcc2cf;
+  font-size: 16px;
+}
+
+.count_list p:before {
+  content: '';
+  margin-right: 4px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  background: center center/20px auto no-repeat;
+}
+
+.desc {
+  text-align: justify;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: #3d3d3d;
+  font-weight: 300;
+  margin-top: -30px;
+  margin-bottom: -30px;
+  margin-left: 300px;
+  max-width: 960px;
+  padding: 70px 0px;
+  background-color: #fff;
+}
+.desc p span {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.desc strong {
+  font-weight: bolder;
+}
+
+.desc h2,
+.desc h3,
+.desc h4 {
+  font-size: 20px;
+  line-height: 25px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-weight: 800;
+  color: #292929;
+}
+
+.space {
+  padding-left: 5px;
+}

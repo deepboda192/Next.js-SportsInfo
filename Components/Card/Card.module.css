@@ -1,0 +1,105 @@
+.all {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.imageContainer {
+  width: 320px;
+  height: 220px;
+  border-radius: 2px 2px 0 0;
+  cursor: pointer;
+  position: relative;
+  padding: 16px;
+  overflow: hidden;
+}
+
+.myImage {
+  height: 100%;
+  background: center center/cover no-repeat #f4f4f5;
+  border-bottom-right-radius: 30px;
+  transition: transform 0.2s;
+}
+
+.a {
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.cardUpper {
+  margin-bottom: 50px;
+  min-height: 115px;
+}
+
+.myImage:hover {
+  transform: scale(1.05);
+}
+
+.flexcontain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.desc {
+  text-align: justify;
+  height: 3.3em;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  font-family: 'IBM Plex Sans', sans-serif;
+  -webkit-box-orient: vertical;
+  margin-top: 2px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  color: #525252;
+  text-align: left;
+}
+
+.leftside {
+  display: inline;
+  text-align: start;
+}
+
+.sportinfo {
+  color: #2990f8;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-weight: 500;
+}
+
+.monthclass {
+  margin-left: 10px;
+  color: #a3a3a3;
+  font-size: 14px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+.leftcount {
+  display: inline;
+  color: #a3a3a3;
+  font-size: 14px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+.leftcount span {
+  margin: 0 10px;
+}
+
+.myLink {
+  font-family: 'Muli';
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: justify;
+  color: black;
+  transition: 0.3s;
+}
+
+.myLink:hover {
+  color: red;
+}
